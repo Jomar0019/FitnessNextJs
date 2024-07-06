@@ -5,6 +5,14 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname:"images.pexels.com"
+            },
+            {
+                protocol: 'https',
+                hostname: "play.google.com"
+            },
+            {
+                protocol: 'https',
+                hostname: 'upload.wikimedia.org'
             }
         ]
     }
