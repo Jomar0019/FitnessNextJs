@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
           <h1 className="text-[34px] text-[#e84a5f] font-bold">Flex</h1>
         </div>
-        <div className="flex gap-x-8">
+        <div className="hidden lg:flex gap-x-8">
           <a href="/" className="text-[#222222]">Home</a>
           <a href="/" className="text-[#222222]">Program</a>
           <a href="/" className="text-[#222222]">Blog</a>
