@@ -5,7 +5,7 @@ const Homepage = () => {
     <div className="w-full h-screen lg:h-[100vh] flex justify-center items-center bg-white lg:rounded-[60px]">
       <div className="w-full lg:w-[1600px] p-3 lg:p-0">
         <h4 className="font-semibold text-sm lg:text-md text-[#222222] uppercase py-12 lg:py-6">the best fitness club in town</h4>
-        <div className="w-full h-[12] flexgap-6">
+        <div className="w-full h-[12] flex gap-6">
           <div className="basis-7/12 ">
             <h1 className="text-6xl lg:text-[110px] uppercase font-bold text-[#222222]">Transforming lives through fitness</h1>
             <div className="py-12 lg:py-6 gap-6 flex">
