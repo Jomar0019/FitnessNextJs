@@ -3,27 +3,27 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <div className="bg-black/95 h-[400px] w-full p-24">
-            <div className="flex gap-6 border-b-2 border-b-gray-400 pb-12">
-                <div className="basis-3/12">
+        <div className="bg-black/95 lg:h-[400px] w-full p-12 lg:p-24">
+            <div className="grid grid-cols-2 lg:flex gap-6 border-b-2 border-b-gray-400 pb-12">
+                <div className="basis-3/12 col-span-2">
                     <Link href={'/'}>
-                        <h1 className="text-[34px] text-[#e84a5f] font-bold mb-12">Flex</h1>
+                        <h1 className="text-[34px] text-[#e84a5f] font-bold mb-6 lg:mb-12">Flex</h1>
                     </Link>
                     <p className="text-[#fff]">Gym session or brisk walk can help physical activity stimulates many chemical that may leave you.</p>
                 </div>
                 <div className="basis-2/12">
                     <h4 className="text-lg text-white font-bold mb-6 mt-3">Company</h4>
                     <ul>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Home</a>
                         </li>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Class</a>
                         </li>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Trainers</a>
                         </li>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Contact</a>
                         </li>
                     </ul>
@@ -32,16 +32,16 @@ const Footer = () => {
                 <div className="basis-2/12">
                     <h4 className="text-lg text-white font-bold mb-6 mt-3">Categories</h4>
                     <ul>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Strength</a>
                         </li>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Body Building</a>
                         </li>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Weight Loss</a>
                         </li>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Basic Yoga</a>
                         </li>
                     </ul>
@@ -50,13 +50,13 @@ const Footer = () => {
                 <div className="basis-2/12">
                     <h4 className="text-lg text-white font-bold mb-6 mt-3">Contact us</h4>
                     <ul>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">+63 9876543210</a>
                         </li>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">fitnessflex@domain.com</a>
                         </li>
-                        <li className="mb-3 text-white">
+                        <li className="mb-3 text-white/50">
                             <a href="/">Warehouse 4, 18 street, Real Bacoor Cavite</a>
                         </li>
                     </ul>
